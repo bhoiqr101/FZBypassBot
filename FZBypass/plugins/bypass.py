@@ -99,7 +99,7 @@ async def bypass_check(client, message):
     if len(parse_data) != 0:
         parse_data[-1] = (
             parse_data[-1]
-            + f"┎ <b>Total Links : {no}</b>\n┠ <b>Results In <code>{convert_time(end - start)}</code></b> !\n┖ <b>By </b>{message.from_user.mention} ( #ID{message.from_user.id} )"
+            + f"┎ <b>Total Links : {no}</b>\n┠ <b>Results In <code>{convert_time(end - start)}</code></b> !\n┖ <b>By </b>{message.from_user.mention} ( #ID{message.from_user.id} )\n\nBy @gdhub_bypasser [⚡@GDHUBNATION]"
         )
     tg_txt = "━━━━━━━✦✗✦━━━━━━━\n\n"
     for tg_data in parse_data:
